@@ -1,0 +1,37 @@
+.Equation {
+  width: 23vw;
+  min-width: 300px;
+  background-color: #f0f0f0;
+  margin: 9% 5%;
+  border-radius: 0.5rem;
+  box-shadow: 6px 19px 23px 1px rgb(0 0 0 / 15%);
+  font-family: "Raleway", sans-serif;
+}
+
+.Equation p {
+  padding: 0.8rem;
+  background: #e6e6e6;
+  color: #333;
+  border-radius: 0.5rem 0.5rem 0 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.Equation form {
+  padding: 0 1rem 1rem;
+}
+
+.Equation label {
+  display: inline-block;
+  width: 10%;
+}
+
+.Equation input {
+  width: 88%;
+  height: 35px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  text-align: right;
+  margin: 0.07rem 0;
+}

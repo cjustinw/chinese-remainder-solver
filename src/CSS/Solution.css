@@ -1,0 +1,25 @@
+.Solution {
+  min-width: 600px;
+  width: 54vw;
+}
+
+.Solution-step {
+  background-color: #f0f0f0;
+  margin: 2% 5%;
+  border-radius: 0.5rem;
+  box-shadow: 6px 19px 23px 1px rgb(0 0 0 / 15%);
+  font-family: "Raleway", sans-serif;
+}
+
+.title {
+  padding: 0.8rem;
+  background: #e6e6e6;
+  color: #333;
+  border-radius: 0.5rem 0.5rem 0 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.step {
+  padding: 0 1rem 1rem;
+}
