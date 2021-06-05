@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Chinese Remainder Solver
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplikasi website untuk dapat menyelesaikan Chinese Remainder Problem yang dibangun dengan menggunakan framework ReactJS dan dideploy dengan menggunakan Github Action CI/CD dan Microsoft Azure.
 
-## Available Scripts
+## Chinese Remainder Problem
 
-In the project directory, you can run:
+Diberikan bilangan bulat positif m<sub>1</sub>, m<sub>2</sub>, ..., m<sub>n</sub> sedemikian sehinggan PBB(m<sub>i</sub>, m<sub>j</sub>) = 1 untuk i ≠ j. Maka sistem kekongruenan linier
 
-### `yarn start`
+- x ≡ a<sub>1</sub>	(mod m<sub>1</sub>)
+- x ≡ a<sub>2</sub>	(mod m<sub>2</sub>)
+- ...
+- x ≡ a<sub>3</sub>	(mod m<sub>3</sub>)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+mempunyai solusi unik dalam modulus m = m<sub>1</sub> ⋅ m<sub>2</sub> ⋅ ... ⋅ m<sub>n</sub>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## Spesifikasi Program
+1. Pengguna dapat memasukkan jumlah persamaan modulo yang diinginkan.
+2. Program dapat menampilkan solusi Chinese Remainder Problem.
+3. Program dapat menampilkan langkah-langkah penyelesaian Chinese Remainder Problem.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Bonus yang dikerjakan
+1. Deploy website dengan Microsoft Azure 
+2. Setup CI/CD dengan Github Action
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Tentang
+Christopher Justine William (13519006)
