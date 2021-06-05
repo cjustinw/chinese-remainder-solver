@@ -64,6 +64,10 @@ on:
 jobs:
   build-and-deploy:
     runs-on: windows-latest 
+    
+    environment:
+      name: 'production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
     - uses: actions/checkout@v2
@@ -80,7 +84,7 @@ jobs:
         npm run test --if-present 
 
     - name: 'Deploy to Azure Web App'
-      uses: azure/webapps-deploy@v2
+      uses: azure/webapps-deploy@v1
       with:
         app-name: 'cjustinw'
         slot-name: 'production'
